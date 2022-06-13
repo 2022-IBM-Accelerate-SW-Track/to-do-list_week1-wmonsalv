@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./About.css";
-//import <profile_pic_name> from "../assets/profile_pic_name.jpg";
+import profile_pic from "/Users/william_x1/Documents/GitHub/personal_website/to-do-list_week1-wmonsalv/src/assets/profile_pic.jpg";
   
 export default class About extends Component {
   render() {
@@ -10,7 +10,7 @@ export default class About extends Component {
           <div className="centered">
             <img 
               className="profile_image"
-              // Image goes here
+              src = {profile_pic}
               alt="Profile Pic"
               ></img>
           </div>
