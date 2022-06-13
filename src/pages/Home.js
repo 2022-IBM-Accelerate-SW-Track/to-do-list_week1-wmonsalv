@@ -1,4 +1,11 @@
 import React, { Component } from 'react';
+<<<<<<< Updated upstream
+=======
+import "../pages/Home.css";
+import AddTodo from '../component/AddTodo.js';
+import Todos from '../component/todos.js';
+
+>>>>>>> Stashed changes
   
 class Home extends Component {
   // A default state of this component with an empty list of todos.
@@ -6,6 +13,10 @@ class Home extends Component {
     super();
     this.state = {
       // create your empty list here call it todos.
+<<<<<<< Updated upstream
+=======
+      todos: []
+>>>>>>> Stashed changes
     };
   }
   // the addTodo function simply creates a new array that includes the user submitted todo item and then
@@ -28,7 +39,15 @@ class Home extends Component {
     return (
       <div className="Home">
         <h1>Todo's </h1>
+<<<<<<< Updated upstream
         <p> Replace this</p>
+=======
+        <Todos todos = {this.state.todos}/>
+        <br>
+        </br>
+        <AddTodo addTodo = {this.addTodo}/>
+       
+>>>>>>> Stashed changes
       </div>
     );
   }

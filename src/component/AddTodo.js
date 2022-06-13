@@ -37,6 +37,26 @@ class AddTodo extends Component {
         // an OnClick event.
         // 3. The value of the text field also should reflect the local state of this component.
         <div>
+<<<<<<< Updated upstream
+=======
+       <TextField
+        label="Add New Item"
+        variant="outlined"
+        onChange={this.handleChange}
+        value={this.state.content}
+        data-testid = "new-item-input"
+      />
+      <Button
+        style={{ marginLeft: "10px" }}
+        onClick={this.handleSubmit}
+        data-testid = 'new-item-button'
+        variant="contained"
+        color="primary"
+      >
+        Add
+      </Button>
+      
+>>>>>>> Stashed changes
           
         </div>
       );
