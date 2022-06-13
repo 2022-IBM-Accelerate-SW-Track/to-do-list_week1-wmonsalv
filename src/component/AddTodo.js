@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Button, TextField } from "@mui/material";
 
 class AddTodo extends Component {
     // A local react state of the this component with a content property set to nothing.
@@ -37,8 +38,6 @@ class AddTodo extends Component {
         // an OnClick event.
         // 3. The value of the text field also should reflect the local state of this component.
         <div>
-<<<<<<< Updated upstream
-=======
        <TextField
         label="Add New Item"
         variant="outlined"
@@ -56,7 +55,6 @@ class AddTodo extends Component {
         Add
       </Button>
       
->>>>>>> Stashed changes
           
         </div>
       );
